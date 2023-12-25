@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/adapter/meteo/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/adapter/meteo/MeteoSensor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/adapter/meteo/MeteoStore.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/adapter/meteo/SensorTemperature.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/decorator/factory/calculator/CalculatorView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/decorator/factory/calculator/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/observer/jobagency/Company.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/observer/jobagency/JobAgency.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/observer/jobagency/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/observer/jobagency/Master.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/observer/jobagency/Observer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/observer/jobagency/Publisher.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/observer/jobagency/Student.java" charset="UTF-8" />
+  </component>
+</project>
