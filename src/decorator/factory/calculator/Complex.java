@@ -17,17 +17,9 @@ public class Complex {
         return img;
     }
 
-    public void setReal(double real) {
-        this.real = real;
-    }
-
-    public void setImg(double img) {
-        this.img = img;
-    }
-
     @Override
     public String toString() {
-        String tmp = "";
+        String tmp;
         if(img > 0){
             tmp = real + " + " + img + "i";
         }else if(img < 0){

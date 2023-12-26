@@ -56,24 +56,25 @@ public class CalculatorView {
         int secondImage = promptInt("Введите мнимую часть 2го комплексного числа: ");
         Complex complex2 = new Complex(secondReal, secondImage);
         Calculable calculator = calculableFactory.create(complex1, complex2);
-        while (true) {
+
             String cmd = prompt("Введите команду (+, *, /) : ");
             if (cmd.equals("+")) {
                 calculator.sumCmplx(complex1, complex2);
             }
+
             if (cmd.equals("*")) {
                 calculator.multiCmplx(complex1, complex2);
             }
+
             if (cmd.equals("/")) {
                 calculator.divCmplx(complex1, complex2);
             }
 
             Complex result = calculator.getResultComplex();
+            System.out.print("Результат вычисления операции (" + complex1 + ") " + cmd + " (" + complex2 + ") = ");
             System.out.println(result.toString());
-            break;
-            }
 
-            String cmdYN = prompt("Еще посчитать (Y/N)?");
+            String cmdYN = prompt("Еще посчитать (Y/N)? ");
             if (cmdYN.equals("Y")) {
                 continue;
             }
